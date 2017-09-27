@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   post '/', to: 'pages#stringify', as: 'stringify'
   get 'age', to: 'pages#age'
   put 'age', to: 'pages#person'
+  get 'me', to: 'pages#me'
 end

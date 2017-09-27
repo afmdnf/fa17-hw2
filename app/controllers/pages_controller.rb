@@ -18,4 +18,9 @@ class PagesController < ApplicationController
   def person
     @person = Person.new params[:name], params[:age]
   end
+
+  def me
+    @teext = "My name is Mohammed and I am from India. I am a sophomore in the EECS Major.
+            I can speak 6 languages. I love being able to create websites."
+  end
 end
